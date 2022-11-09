@@ -1,0 +1,46 @@
+@import '../../App.scss';
+
+.containerSecond {
+    width: 100vw;
+    height: 100vh;
+   
+
+    .info{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        color: white;
+        flex-wrap: wrap;
+        line-height: 24px;
+        
+        .my__picture{
+            width: 400px;
+            
+            img{
+                width: 300px;
+                border-radius: 100px;
+                margin-bottom: 20px;
+                box-shadow: 5px 5px 10px $font-secondary;
+            }
+        }
+        
+        h1{
+            color: $font-secondary;
+            margin-bottom: 15px;
+            line-height: 48px;
+        }
+
+        .info__about__me-paragraph{
+            max-width: 500px;
+            margin-bottom: 20px;
+        }
+        .info__about__me-paragraph-second{
+            max-width: 500px;
+        }
+    }
+   
+   
+    
+}
+
+
