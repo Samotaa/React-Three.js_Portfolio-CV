@@ -1,20 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
 .about__me{
     color: white;
     position: absolute;
-    min-height: 400px;
+    height: 400px;
     max-width: 700px;
-    top: 40%;
-    left: 15%;
+    top: 30%;
+    left: 10%;
     z-index: 2;
     
     
     .first___sentence{
         color: rgb(74, 207, 185);
         font-size:28px;
-        font-family: 'DM Serif Display', serif;
+        font-family: 'Secular One', sans-serif;
     }
     .my__fio{
         font-size: 76px;
@@ -24,9 +24,7 @@
     .text__about{
         color: rgb(190, 190, 194);
         font-size: 24px;
-        width: 600px;
-        line-height:32px;
-        font-family: 'DM Serif Display', serif;
+        font-family: 'Secular One', sans-serif;
     }
 }
 

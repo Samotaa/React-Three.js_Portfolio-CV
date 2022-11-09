@@ -1,0 +1,91 @@
+@import '../../App.scss';
+
+.scene{
+    width: 100vw;
+    height: 100vh;
+    padding-left: 300px;
+}
+
+@media screen and (max-width: 1100px) {
+    .scene{
+        text-align: center;
+        width: 100vw;
+        height: 100vh;
+        padding-top: 80px;
+        padding-left: 0px;
+    }
+    .about__me{
+        color: $font-primary;
+        position: absolute;
+        height: 180px;
+        max-width: 700px;
+        top: 5%;
+        left: 15%;
+        z-index: 2;
+        
+        
+        .first___sentence{
+            color: $font-secondary;
+            font-size:28px;
+            font-family: 'DM Serif Display', serif;
+        }
+        .my__fio{
+            font-size: 76px;
+            font-family: 'Passion One', cursive;
+        }
+       
+        .text__about{
+            color: rgb(190, 190, 194);
+            font-size: 24px;
+            font-family: 'DM Serif Display', serif;
+        }
+    }
+    
+    
+    
+    
+}
+
+
+@media screen and (max-width: 730px) {
+    .scene{
+        text-align: center;
+        width: 100vw;
+        height: 80vh;
+        padding-top: 80px;
+        padding-left: 0px;
+    }
+    .about__me{
+        color: white;
+        position: absolute;
+        height: 180px;
+        max-width: 700px;
+        top: 5%;
+        left: 15%;
+        z-index: 2;
+        
+        
+        .first___sentence{
+            color:  $font-secondary;
+            font-size: clamp(8px, 10vw, 18px);
+            font-family: 'DM Serif Display', serif;
+        }
+        .my__fio{
+            font-size: clamp(24px, 10vw, 42px);
+            font-family: 'Passion One', cursive;
+        }
+       
+        .text__about{
+            color: rgb(190, 190, 194);
+            font-size: clamp(8px, 10vw, 18px);
+            font-family: 'DM Serif Display', serif;
+            word-wrap: break-word;
+            padding: auto;
+        }
+    }
+    
+    
+    
+    
+}
+

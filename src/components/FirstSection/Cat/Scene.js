@@ -7,7 +7,7 @@ export default function Scene() {
 
     return (
       <Canvas 
-        className="canvas" 
+        
         shadows dpr={[1, 2]} 
         camera={{ position: [1, 6, 10], fov: 45 }}
       >

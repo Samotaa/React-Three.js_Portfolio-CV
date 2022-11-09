@@ -1,6 +1,10 @@
 @import '../../App.scss';
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
 
-.containerSecond {
+
+@media screen and (min-width: 913px) {
+    .containerSecond {
+    margin-top: 25px;
     width: 100vw;
     height: 100vh;
    
@@ -8,19 +12,43 @@
     .info{
         display: flex;
         justify-content: center;
+        height: 630px;
         gap: 10px;
         color: white;
         flex-wrap: wrap;
         line-height: 24px;
+        overflow-y: hidden;
+       
         
         .my__picture{
             width: 400px;
-            
+            text-align: center;
+            display: grid;
+            grid-column: 1fr, 200px;
             img{
-                width: 300px;
+             
+                max-width: 300px;
                 border-radius: 100px;
                 margin-bottom: 20px;
+                justify-self: center;
                 box-shadow: 5px 5px 10px $font-secondary;
+            }
+            a{
+                color: $font-secondary;
+                text-decoration: none;
+                line-height: 24px;
+                justify-self: center;
+                align-self: center;
+                width: 200px;
+                margin-bottom: 200px;
+                padding: 5px;
+                text-align: center;
+                border: 1px solid $font-secondary;
+                border-radius: 25px;
+            }
+
+            a:hover{
+                color: $font-primary;
             }
         }
         
@@ -33,14 +61,133 @@
         .info__about__me-paragraph{
             max-width: 500px;
             margin-bottom: 20px;
+            font-family: 'Source Code Pro', monospace;
         }
         .info__about__me-paragraph-second{
             max-width: 500px;
+            font-family: 'Source Code Pro', monospace;
+        }
+
+        .skills{
+            margin-top: 15px;
+            height: 390px;
+        }
+        .skills__languages{
+            font-size: 18px;
+            padding-top: 15px;
+            display: flex;
+            flex-direction: row;
+            justify-content: start;
+            gap: 20px;
+
+            .tools{
+                margin-left: 50px;
+            }
+
+            li{
+                padding: 5px;
+            }
         }
     }
-   
-   
-    
+}
 }
 
 
+
+@media screen and (max-width: 912px){
+    .info__about__me{
+        padding: 10px;
+    }
+    .my__picture{
+        width: 400px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        img{
+            width: 150px;
+            border-radius: 100px;
+            margin-bottom: 20px;
+            justify-self: center;
+            box-shadow: 5px 5px 10px $font-secondary;
+        }
+        a{
+            color: $font-secondary;
+            text-decoration: none;
+            line-height: 24px;
+            justify-self: center;
+            align-self: center;
+            width: 200px;
+            padding: 5px;
+            text-align: center;
+            border: 1px solid $font-secondary;
+            border-radius: 25px;
+        }
+
+        a:hover{
+            color: $font-primary;
+        }
+    }
+    .info{
+       
+       
+        display: flex;
+        justify-content: center;
+        height: 630px;
+        gap: 10px;
+        color: white;
+        flex-wrap: wrap;
+        padding: 5px;
+        margin: 5px;
+       
+        overflow-y: hidden;
+        h1{
+            color: $font-secondary;
+            font-size: 24px;
+            margin-bottom: 10px;
+     
+        }
+
+        .info__about__me-paragraph{
+           
+            font-size: 12px;
+            max-width: 380px;
+            max-height: 100px;
+            margin-bottom: 5px;
+            overflow: hidden;
+            font-family: 'Source Code Pro', monospace;
+        }
+        .info__about__me-paragraph-second{
+            max-width: 380px;
+            font-size: 12px;
+            max-height: 100px;
+            overflow: hidden;
+            font-family: 'Source Code Pro', monospace;
+        }
+
+        
+        .skills{
+            font-size: 16px;
+            height: 250px;
+
+            h1{
+                font-size: 24px;
+                margin-bottom: 10px;
+            }
+        }
+        .skills__languages{
+            font-size: 16px;
+            display: flex;
+            flex-direction: row;
+            justify-content: start;
+            gap: 10px;
+
+            .tools{
+                margin-left: 100px;
+            }
+
+            
+        }
+    }
+}
