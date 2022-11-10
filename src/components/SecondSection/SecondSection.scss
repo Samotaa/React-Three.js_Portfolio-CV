@@ -24,11 +24,13 @@
             width: 400px;
             text-align: center;
             display: grid;
-            grid-column: 1fr, 200px;
+            grid-template-rows: 1fr 1fr;
+            grid-template-columns: 1fr;
+            height: 500px;
+           
             img{
              
                 max-width: 300px;
-                border-radius: 100px;
                 margin-bottom: 20px;
                 justify-self: center;
                 box-shadow: 5px 5px 10px $font-secondary;
@@ -40,7 +42,7 @@
                 justify-self: center;
                 align-self: center;
                 width: 200px;
-                margin-bottom: 200px;
+                margin-bottom: 10px;
                 padding: 5px;
                 text-align: center;
                 border: 1px solid $font-secondary;
@@ -105,9 +107,10 @@
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
+        
         img{
             width: 150px;
-            border-radius: 100px;
+            
             margin-bottom: 20px;
             justify-self: center;
             box-shadow: 5px 5px 10px $font-secondary;

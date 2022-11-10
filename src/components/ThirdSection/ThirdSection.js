@@ -1,9 +1,12 @@
 import React from 'react';
+import Card from './Cards/Cards'
 
-function ThirdSection(props) {
+function ThirdSection() {
     return (
-        <div>
-            third section
+        <div className="containerThird">
+           <div className="cards">
+                <Card />
+           </div>
         </div>
     );
 }

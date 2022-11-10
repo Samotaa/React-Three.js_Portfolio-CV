@@ -1,0 +1,75 @@
+@import '../../../App.scss';
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+.cards{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    .portfolio__title{
+        color: $font-primary;
+        font-size: 32px;
+        
+    }
+    .cards__info{
+        color: $font-primary;
+        display: grid;
+     
+        grid-template-columns: 300px 300px 300px;
+        grid-template-rows: repeat(2, 320px) ;
+         
+        
+        gap: 20px;
+        
+        .project__name{
+            font-size: 18px;
+            text-align: center;
+            padding-top: 10px;
+        }
+        .card{
+            background-color: $background-secondary;
+            box-shadow: 0px 5px 10px black;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            
+           
+
+            .project__description{
+                width: 250px;
+                padding: 20px;
+                font-size: 14px;
+                color: $font-primary;
+                font-family: 'Source Code Pro', monospace;
+            }
+        }
+
+        .project__stack{
+            font-size: 12px;
+            color: $font-secondary;
+            display: flex;
+            flex-direction: row;
+            margin-top: 10px;
+            justify-content: space-around;
+       
+        }
+
+        .link{
+            margin-top: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding-left: 10px;
+            a{
+                color: $font-primary;
+                font-size: 32px;
+            }
+            a:hover{
+                color: $font-secondary;
+                font-size: 32px;
+            }
+        }
+    }
+}
+
