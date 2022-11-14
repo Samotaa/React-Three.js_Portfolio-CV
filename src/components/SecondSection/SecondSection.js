@@ -10,11 +10,11 @@ import file from '../doc/ArtyomNovikevich_CV.docx'
 import Me from '../images/me.JPG'
 const textAnimation = {
     hidden: {
-        y: 100,
+        x: 100,
         opacity: 0,
     },
     visible: custom => ({
-        y: 0,
+        x: 0,
         opacity: 1,
         transition: {delay: custom * 0.2}
     })
@@ -32,10 +32,13 @@ const Second = () => {
                     initial="hidden"
                     whileInView="visible"
                     viewport={{amount: 0.3}}
-                    classname="info__about__me">
+                    className="info__about__me">
                     <h1
-                    custom={2} variants={textAnimation} 
-                    >About me</h1>
+                    custom={2} 
+                    variants={textAnimation} 
+                    >  
+                        About me
+                    </h1>
                     <motion.p 
                     custom={2} variants={textAnimation} 
                     className="info__about__me-paragraph">

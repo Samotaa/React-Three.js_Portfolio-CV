@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
 
 
-@media screen and (min-width: 913px) {
+@media screen and (min-width: 999.60px) {
     .containerSecond {
     margin-top: 25px;
     width: 100vw;
@@ -72,7 +72,7 @@
 
         .skills{
             margin-top: 15px;
-            height: 390px;
+            height: 300px;
         }
         .skills__languages{
             font-size: 18px;
@@ -96,7 +96,7 @@
 
 
 
-@media screen and (max-width: 912px){
+@media screen and (max-width: 999.40px){
     .info__about__me{
         padding: 10px;
     }
@@ -138,7 +138,7 @@
         display: flex;
         justify-content: center;
         height: 630px;
-        gap: 10px;
+        gap: 5px;
         color: white;
         flex-wrap: wrap;
         padding: 5px;
@@ -164,7 +164,107 @@
         .info__about__me-paragraph-second{
             max-width: 380px;
             font-size: 12px;
+            max-height: 110px;
+            overflow: hidden;
+            font-family: 'Source Code Pro', monospace;
+        }
+
+        
+        .skills{
+            font-size: 16px;
+            height: 200px;
+
+            h1{
+                font-size: 24px;
+                margin-bottom: 10px;
+            }
+        }
+        .skills__languages{
+            font-size: 16px;
+            display: flex;
+            flex-direction: row;
+            justify-content: start;
+            gap: 10px;
+
+            .tools{
+                margin-left: 100px;
+            }
+
+            
+        }
+    }
+}
+
+
+@media screen and (max-width: 999.40px) and (min-width: 822.40px){
+    .info__about__me{
+        padding: 10px;
+    }
+    .my__picture{
+        width: 400px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        
+        img{
+            width: 150px;
+            
+            margin-bottom: 20px;
+            justify-self: center;
+            box-shadow: 5px 5px 10px $font-secondary;
+        }
+        a{
+            color: $font-secondary;
+            text-decoration: none;
+            line-height: 24px;
+            justify-self: center;
+            align-self: center;
+            width: 200px;
+            padding: 5px;
+            text-align: center;
+            border: 1px solid $font-secondary;
+            border-radius: 25px;
+        }
+
+        a:hover{
+            color: $font-primary;
+        }
+    }
+    .info{
+       
+       
+        display: flex;
+        justify-content: center;
+        height: 430px;
+        gap: 5px;
+        color: white;
+        flex-wrap: wrap;
+        padding: 5px;
+        margin: 5px;
+       
+        overflow-y: hidden;
+        h1{
+            color: $font-secondary;
+            font-size: 24px;
+            margin-bottom: 10px;
+     
+        }
+
+        .info__about__me-paragraph{
+           
+            font-size: 12px;
+            max-width: 380px;
             max-height: 100px;
+            margin-bottom: 5px;
+            overflow: hidden;
+            font-family: 'Source Code Pro', monospace;
+        }
+        .info__about__me-paragraph-second{
+            max-width: 380px;
+            font-size: 12px;
+            max-height: 110px;
             overflow: hidden;
             font-family: 'Source Code Pro', monospace;
         }

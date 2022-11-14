@@ -6,7 +6,7 @@
     padding-left: 300px;
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 999.40px) {
     .scene{
         text-align: center;
         width: 100vw;
@@ -27,7 +27,7 @@
         .first___sentence{
             color: $font-secondary;
             font-size:28px;
-            font-family: 'DM Serif Display', serif;
+            font-family: 'Source Code Pro', monospace;
         }
         .my__fio{
             font-size: 76px;
@@ -37,7 +37,7 @@
         .text__about{
             color: rgb(190, 190, 194);
             font-size: 24px;
-            font-family: 'DM Serif Display', serif;
+            font-family: 'Source Code Pro', monospace;
         }
     }
     
@@ -69,7 +69,7 @@
         .first___sentence{
             color:  $font-secondary;
             font-size: clamp(8px, 10vw, 18px);
-            font-family: 'DM Serif Display', serif;
+            font-family: 'Source Code Pro', monospace;
         }
         .my__fio{
             font-size: clamp(24px, 10vw, 42px);
@@ -79,7 +79,7 @@
         .text__about{
             color: rgb(190, 190, 194);
             font-size: clamp(8px, 10vw, 18px);
-            font-family: 'DM Serif Display', serif;
+            font-family: 'Source Code Pro', monospace;
             word-wrap: break-word;
             padding: auto;
         }

@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
 .about__me{
     color: white;
     position: absolute;
@@ -14,7 +15,7 @@
     .first___sentence{
         color: rgb(74, 207, 185);
         font-size:28px;
-        font-family: 'Secular One', sans-serif;
+        font-family: 'Source Code Pro', monospace;
     }
     .my__fio{
         font-size: 76px;
@@ -23,8 +24,8 @@
    
     .text__about{
         color: rgb(190, 190, 194);
-        font-size: 24px;
-        font-family: 'Secular One', sans-serif;
+        font-size: 20px;
+        font-family: 'Source Code Pro', monospace;
     }
 }
 

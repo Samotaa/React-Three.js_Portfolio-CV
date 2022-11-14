@@ -23,7 +23,7 @@ const About = () => {
             className="about__me">
            
             <motion.p custom={2} variants={textAnimation} className="first___sentence">
-               <bold>Hello, my name is</bold> 
+               <b>Hello, my name is</b> 
             </motion.p>
             <motion.h1
             custom={3} variants={textAnimation}
