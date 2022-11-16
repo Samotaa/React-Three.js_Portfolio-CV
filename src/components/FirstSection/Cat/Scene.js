@@ -43,7 +43,7 @@ export default function Scene() {
           minPolarAngle={Math.PI / 3}
           // maxAzimuthAngle={Math.PI / 2}
           // minAzimuthAngle={Math.PI / 5}
-          autoRotateSpeed={3}
+          autoRotateSpeed={1}
         />
         <ContactShadows 
           position={[0, -1.4, 0]} 

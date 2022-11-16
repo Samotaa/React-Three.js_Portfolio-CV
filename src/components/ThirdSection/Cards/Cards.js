@@ -16,15 +16,16 @@ export default function Cards() {
                 </div>
                 <div className="project__description">
                     <p>
-                        User can get information about population and national symbols on main page. On the map
-                        user can get a detailed information about regions and cities. 
+                        An interactive map of Belarus with dragging and zooming, data points, 
+                        overlays, statistics, and other information to keep a reader engaged.
                     </p>
                 </div>
                 <div className="project__stack">
-                    <p>JavaScript</p>
+                    <p>JS</p>
                     <p>React</p>
                     <p>HTML/CSS</p>
                     <p>MapBox</p>
+                    <p>GeoJSON</p>
                 </div>
                 <div className="link">
                     <a href="https://github.com/Samotaa/Belarus_Interactive_Map" target="_blank"> <AiFillGithub /></a>
@@ -33,114 +34,88 @@ export default function Cards() {
 
             <div className="pokedex card">
                 <div className="project__name">
-                    <h4>Pokedex</h4>
+                    <h4>Movies App</h4>
                 </div>
                 <div className="project__description">
                     <p>
-                        Service for exploring Pokemons.
-                        Users can receive the list of all Pokemons and sort them by name or number, type, weakness,
-                       
+                        A simple web app for search movie and explore his description.                    
                     </p>
                 </div>
                 <div className="project__stack">
-                    <p>JavaScript</p>
+                    <p>JS</p>
                     <p>React</p>
                     <p>Redux</p>
-                    <p>HTML/CSS</p>
-                    <p>PokeAPI</p>
+                    <p>HTML/SASS</p>
+                    <p>Axios</p>
+                    <p>TMDb API</p>
                 </div>
                 <div className="link">
-                    <a href="https://github.com/Samotaa/Belarus_Interactive_Map" target="_blank"> <AiFillGithub /></a>
+                    <a href="https://github.com/Samotaa/React-Redux_MoviesApp" target="_blank"> <AiFillGithub /></a>
                 </div>
             </div>
-            <div className="university card">
+            <div className="wether card">
+                <div className="project__name">
+                    <h4>Wether app</h4>
+                </div>
+                <div className="project__description">
+                    <p>
+                        Servise where user can get information about the weather.
+                    </p>
+                </div>
+                <div className="project__stack">
+                    <p>JS</p>
+                    <p>React</p>
+                    <p>HTML/CSS</p>
+                    <p>Axios</p>
+                    <p>Wether API</p>
+                </div>
+                <div className="link">
+                    <a href="https://github.com/Samotaa/React-Wether_App" target="_blank"> <AiFillGithub /></a>
+                </div>
+            </div>
+            <div className="Pokedex card">
+                <div className="project__name">
+                    <h4>Portfolio</h4>
+                </div>
+                <div className="project__description">
+                    <p>
+                        This web site :)
+                    </p>
+                </div>
+                <div className="project__stack">
+                    <p>JS</p>
+                    <p>React</p>
+                    <p>Three.js</p>
+                    <p>HTML/SASS</p>
+                    <p>Blender 3D</p>
+              
+                </div>
+                <div className="link">
+                    <a href="https://github.com/Samotaa/React-Three.js_Portfolio-CV" target="_blank"> <AiFillGithub /></a>
+                </div>
+            </div>
+            <div className="Pokedex card">
                 <div className="project__name">
                     <h4>Pokedex</h4>
                 </div>
                 <div className="project__description">
                     <p>
                         Service for exploring Pokemons.
-                        Users can receive the list of all Pokemons and sort them by name or number, type, weakness,
-                       
+                        Users can receive the list of all Pokemons and sort them by name or number, type, weakness.
                     </p>
                 </div>
                 <div className="project__stack">
-                    <p>JavaScript</p>
+                    <p>JS</p>
                     <p>React</p>
                     <p>Redux</p>
                     <p>HTML/CSS</p>
+                    <p>Axios</p>
                     <p>PokeAPI</p>
+                </div>
+                <div className="link">
+                    <p className='pokedex'>No code because the project was created at internsheep</p>
+                </div>
                     
-                </div>
-                <div className="link">
-                    <a href="https://github.com/Samotaa/Belarus_Interactive_Map" target="_blank"> <AiFillGithub /></a>
-                </div>
-            </div>
-            <div className="Pokedex card">
-                <div className="project__name">
-                    <h4>Pokedex</h4>
-                </div>
-                <div className="project__description">
-                    <p>
-                        Service for exploring Pokemons.
-                        Users can receive the list of all Pokemons and sort them by name or number, type, weakness,
-                      
-                    </p>
-                </div>
-                <div className="project__stack">
-                    <p>JavaScript</p>
-                    <p>React</p>
-                    <p>Redux</p>
-                    <p>HTML/CSS</p>
-                    <p>PokeAPI</p>
-                </div>
-                <div className="link">
-                    <a href="https://github.com/Samotaa/Belarus_Interactive_Map" target="_blank"> <AiFillGithub /></a>
-                </div>
-            </div>
-            <div className="Pokedex card">
-                <div className="project__name">
-                    <h4>Pokedex</h4>
-                </div>
-                <div className="project__description">
-                    <p>
-                        Service for exploring Pokemons.
-                        Users can receive the list of all Pokemons and sort them by name or number, type, weakness,
-                   
-                    </p>
-                </div>
-                <div className="project__stack">
-                    <p>JavaScript</p>
-                    <p>React</p>
-                    <p>Redux</p>
-                    <p>HTML/CSS</p>
-                    <p>PokeAPI</p>
-                </div>
-                <div className="link">
-                    <a href="https://github.com/Samotaa/Belarus_Interactive_Map" target="_blank"> <AiFillGithub /></a>
-                </div>
-            </div>
-            <div className="Pokedex card">
-                <div className="project__name">
-                    <h4>Pokedex</h4>
-                </div>
-                <div className="project__description">
-                    <p>
-                        Service for exploring Pokemons.
-                        Users can receive the list of all Pokemons and sort them by name or number, type, weakness,
-                    
-                    </p>
-                </div>
-                <div className="project__stack">
-                    <p>JavaScript</p>
-                    <p>React</p>
-                    <p>Redux</p>
-                    <p>HTML/CSS</p>
-                    <p>PokeAPI</p>
-                </div>
-                <div className="link">
-                    <a href="https://github.com/Samotaa/Belarus_Interactive_Map" target="_blank"> <AiFillGithub /></a>
-                </div>
             </div>
         </div>
         

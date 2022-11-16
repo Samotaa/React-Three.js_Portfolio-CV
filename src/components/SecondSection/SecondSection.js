@@ -2,7 +2,7 @@ import React from 'react';
 import { motion, transform } from "framer-motion"
 
 import './SecondSection.scss'
-import { DiReact } from 'react-icons/di';
+import { DiReact, DiSass } from 'react-icons/di';
 import { SiJavascript, SiRedux, SiThreedotjs, SiMapbox, SiMysql } from 'react-icons/si';
 import { AiFillHtml5, AiFillGithub } from 'react-icons/ai';
 
@@ -72,6 +72,7 @@ const Second = () => {
                             </div>
                             <div className="tools">
                                 <ul>
+                                    <li><DiSass />SASS</li>
                                     <li><AiFillGithub /> Git</li>
                                     <li><SiMysql /> MySQL</li>
                                     <li><SiMapbox /> MapBox</li>
