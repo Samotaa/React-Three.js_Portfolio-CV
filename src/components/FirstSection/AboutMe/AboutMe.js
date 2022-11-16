@@ -11,7 +11,7 @@ const textAnimation = {
     visible: custom => ({
         y: 0,
         opacity: 1,
-        transition: {delay: custom * 0.2, once: true}
+        transition: {delay: custom * 0.3}
     })
 }
 const About = () => {
@@ -20,18 +20,23 @@ const About = () => {
         <motion.div 
             initial="hidden"
             whileInView="visible"
+            viewport={{amount: 0, once: true}}
             className="about__me">
            
-            <motion.p custom={2} variants={textAnimation} className="first___sentence">
+            <motion.p 
+           
+            custom={4} variants={textAnimation} className="first___sentence">
                <b>Hello, my name is</b> 
             </motion.p>
             <motion.h1
-            custom={3} variants={textAnimation}
+            
+            custom={5} variants={textAnimation}
             className="my__fio">
                 Artyom Novikevich
             </motion.h1>
             <motion.h5
-            custom={4} variants={textAnimation}
+          
+            custom={6} variants={textAnimation}
             className="text__about">
                 I'm a junior frontend developer from Brest, Belarus
             </motion.h5>
