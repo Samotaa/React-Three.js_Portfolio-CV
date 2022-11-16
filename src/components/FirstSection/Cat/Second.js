@@ -80,6 +80,7 @@ export default function Model(props) {
         dispose={null}
       >
         <mesh 
+        
            onClick={() =>  window.open("https://www.linkedin.com/in/artyom-novikevich-a0b249205/")}
           geometry={nodes.Cube019.geometry} material={materials.back} position={[-0.86, 0.06, 2.53]} rotation={[-Math.PI, 0, -Math.PI]} scale={[-1.38, -0.05, -0.4]} />
         <mesh 

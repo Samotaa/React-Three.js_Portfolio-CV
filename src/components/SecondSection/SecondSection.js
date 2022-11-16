@@ -22,7 +22,7 @@ const textAnimation = {
 
 const Second = () => {
     return(
-        <div className="containerSecond">
+        <div id="second" className="containerSecond">
             <div className = "info">
                 <div className="my__picture">
                     <img src={Me} alt="me"></img>
