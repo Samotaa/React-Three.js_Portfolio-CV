@@ -1,7 +1,6 @@
 import React, { Suspense } from 'react';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls, PresentationControls, Environment, ContactShadows, Stars } from '@react-three/drei';
-import Model from './Cat'; 
 import Second from './Second'
 import './Scene.css'
 export default function Scene() {
