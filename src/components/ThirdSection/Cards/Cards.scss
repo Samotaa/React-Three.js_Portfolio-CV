@@ -10,8 +10,9 @@
         height: 100vh;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
+
         .portfolio__title{
             color: $font-primary;
             font-size: 32px;
@@ -66,7 +67,6 @@
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
-                padding-left: 10px;
 
                 a{
                     color: $font-primary;
@@ -154,7 +154,6 @@
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
-                padding-left: 10px;
                 a{
                     color: $font-primary;
                     font-size: 32px;
@@ -228,9 +227,6 @@
 
                 font-size: 9px;
                 color: $font-secondary;
-
-         
-           
             }
     
             .link{
@@ -239,7 +235,6 @@
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
-                padding-left: 10px;
                 a{
                     color: $font-primary;
                     font-size: 32px;
