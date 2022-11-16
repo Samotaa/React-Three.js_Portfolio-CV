@@ -113,7 +113,7 @@ export default function Cards() {
                     <p>PokeAPI</p>
                 </div>
                 <div className="link">
-                    <p className='pokedex'>No code because the project was created at internsheep</p>
+                    <p className='pokedex'>No code because the project was created at internship</p>
                 </div>
                     
             </div>
