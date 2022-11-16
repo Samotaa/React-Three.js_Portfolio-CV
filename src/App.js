@@ -7,11 +7,11 @@ import Third from './components/ThirdSection/ThirdSection'
 import { Html, useProgress } from '@react-three/drei'
 
 
-const override: CSSProperties = {
-  display: "block",
-  marginLeft: '900px',
-  marginTop: '460px',
-  height: '100px'
+const override: CSSProperties = { 
+  display: 'block',
+  marginLeft: '48%',
+  marginTop: '20%',
+
 };
 
 
@@ -34,14 +34,16 @@ function App() {
   return (
     <div>
       {
-        loading ?   
-        <ScaleLoader
-          color="#36d7b7"
-          cssOverride={override}
-          height={50}
-          margin={6}
-          width={10}
-        />
+        loading ?  
+        <div className='loader'> 
+          <ScaleLoader 
+            color="#36d7b7"
+            height={50}
+            cssOverride={override}
+            margin={4}
+            width={10}
+          />
+        </div>
         :
         <div>
           <First/>
