@@ -2,6 +2,7 @@ import React, { Suspense } from 'react';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls, PresentationControls, Environment, ContactShadows, Stars } from '@react-three/drei';
 import Model from './Cat'; 
+import Second from './Second'
 import './Scene.css'
 export default function Scene() {
 
@@ -28,7 +29,7 @@ export default function Scene() {
           shadow-mapSize={[512, 512]} 
           castShadow 
         />
-        <Model  
+        <Second  
           position={[3  , -1, -1]} 
           scale={1} 
         />
@@ -48,9 +49,9 @@ export default function Scene() {
         <ContactShadows 
           position={[0, -1.4, 0]} 
           opacity={0.75} 
-          scale={11} 
-          blur={2} 
-          far={6} 
+          scale={15} 
+          blur={3} 
+          far={5} 
         />
        
     </Canvas>

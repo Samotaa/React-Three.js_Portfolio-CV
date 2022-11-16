@@ -6,7 +6,7 @@ import { DiReact, DiSass } from 'react-icons/di';
 import { SiJavascript, SiRedux, SiThreedotjs, SiMapbox, SiMysql } from 'react-icons/si';
 import { AiFillHtml5, AiFillGithub } from 'react-icons/ai';
 
-import file from '../doc/ArtyomNovikevich_CV.docx'
+import file from '../doc/ArtyomNovikevich_CV.pdf'
 import Me from '../images/me.JPG'
 const textAnimation = {
     hidden: {
@@ -26,12 +26,12 @@ const Second = () => {
             <div className = "info">
                 <div className="my__picture">
                     <img src={Me} alt="me"></img>
-                    <a href={file} download="Novikevich_CV">Download CV</a>
+                    <a href={file} target="_blank">Check out CV</a>
                 </div>
                 <motion.div 
                     initial="hidden"
                     whileInView="visible"
-                    viewport={{amount: 0.3}}
+                    viewport={{amount: 0.3, once: true}}
                     className="info__about__me">
                     <h1
                     custom={2} 
@@ -56,7 +56,7 @@ const Second = () => {
                     <motion.div 
                          initial="hidden"
                          whileInView="visible"
-                         viewport={{amount: 0.3}}
+                         viewport={{amount: 0.3, once: true}}
                         className="skills">
                         <h1 custom={3} variants={textAnimation} >Skills:</h1>
                         <motion.div 
