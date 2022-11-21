@@ -72,7 +72,7 @@ const Second = () => {
                             </div>
                             <div className="tools">
                                 <ul>
-                                    <li><DiSass /> SASS</li>
+                                    <li><DiSass /> SCSS</li>
                                     <li><AiFillGithub /> Git</li>
                                     <li><SiMysql /> MySQL</li>
                                     <li><SiMapbox /> MapBox</li>
