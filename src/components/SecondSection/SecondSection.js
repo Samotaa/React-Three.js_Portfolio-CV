@@ -49,9 +49,9 @@ const Second = () => {
                     <motion.p 
                     custom={2} variants={textAnimation} 
                     className="info__about__me-paragraph-second">
-                        In May 2022 I attended an internship at EpolSoft for 3 months as frontend developer.
+                        In May 2022 I attended an internship at EpolSoft for 3 months as a frontend developer.
                         In June 2022 I graduated from Brest State Technical University as a software engineer.
-                        Now im creating projects for my portfolio and actively searching for job or internship as a frontend developer.
+                        Now I'm creating projects for my portfolio and actively searching for a job or an internship as a frontend developer.
                     </motion.p>
                     <motion.div 
                          initial="hidden"
