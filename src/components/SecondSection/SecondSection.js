@@ -3,6 +3,7 @@ import { motion, transform } from "framer-motion"
 
 import './SecondSection.scss'
 import { DiReact, DiSass } from 'react-icons/di';
+import { FaLaravel, FaVuejs } from "react-icons/fa";
 import { SiJavascript, SiRedux, SiThreedotjs, SiMapbox, SiMysql } from 'react-icons/si';
 import { AiFillHtml5, AiFillGithub } from 'react-icons/ai';
 
@@ -66,16 +67,16 @@ const Second = () => {
                                     <li><AiFillHtml5 /> HTML/CSS</li>
                                     <li><SiJavascript /> JavaScript</li>
                                     <li><DiReact /> React</li>
-                                    <li><SiRedux /> Redux</li>
+                                    <li><FaVuejs /> Vue</li>
                                     <li><SiThreedotjs /> Three.js</li>
                                 </ul>
                             </div>
                             <div className="tools">
                                 <ul>
                                     <li><DiSass /> SCSS</li>
+                                    <li><FaLaravel /> Laravel</li>
                                     <li><AiFillGithub /> Git</li>
                                     <li><SiMysql /> MySQL</li>
-                                    <li><SiMapbox /> MapBox</li>
                                 </ul>
                             </div>
                         </motion.div>
