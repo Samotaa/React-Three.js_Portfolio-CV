@@ -51,9 +51,7 @@ const Second = () => {
                     className="info__about__me-paragraph-second">
                         In the field of frontend development, I use JS, React, Vue.js and CSS/SCSS/Tailwind. 
                         Have knowledge of SQL, experience in backend development using PHP and Laravel. 
-                        I use GitHub as a version control system. I attended an internship at EpolSoft for 3 months as a Frontend Developer (React). 
-                        Today I work for Encore Studio as a Junior Full Stack Developer and participate in the development of the application, 
-                        using PHP and Laravel for backend development and JavaScript and Vue3 for frontend development.
+                        I use GitHub as a version control system.
                     </motion.p>
                     <motion.div 
                          initial="hidden"
