@@ -11,24 +11,22 @@ export default function Cards() {
         <div className="cards__info">
             <div className="interactive__map card">
                 <div className="project__name">
-                    <h4>Belarus Interactive map</h4>
+                    <h4>Interactive map</h4>
                     
                 </div>
                 <div className="project__description">
                     <p>
-                        An interactive map of Belarus with dragging and zooming, data points, 
-                        overlays, statistics, and other information to keep a reader engaged.
+                        An interactive map with edit mode
                     </p>
                 </div>
                 <div className="project__stack">
                     <p>JS</p>
                     <p>React</p>
                     <p>HTML/CSS</p>
-                    <p>MapBox</p>
-                    <p>GeoJSON</p>
+                    <p>Leaflet</p>
                 </div>
                 <div className="link">
-                    <a href="https://github.com/Samotaa/Belarus_Interactive_Map" target="_blank"> <AiFillGithub /></a>
+                    <a href="https://github.com/Samotaa/react-map" target="_blank"> <AiFillGithub /></a>
                 </div>
             </div>
 
