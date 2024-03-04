@@ -7,7 +7,7 @@ import { FaLaravel, FaVuejs } from "react-icons/fa";
 import { SiJavascript, SiRedux, SiThreedotjs, SiMapbox, SiMysql } from 'react-icons/si';
 import { AiFillHtml5, AiFillGithub } from 'react-icons/ai';
 
-import file from '../doc/ArtyomNovikevichCV.pdf'
+import file from '../doc/ArtyomNovikevichCV.docx'
 import Me from '../images/me.JPG'
 const textAnimation = {
     hidden: {
