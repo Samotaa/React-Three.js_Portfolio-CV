@@ -87,7 +87,7 @@ export default function Model(props) {
            onClick={() =>  window.open("https://github.com/Samotaa")}
           geometry={nodes.Cube020.geometry} material={materials.back} position={[1.78, 0.06, 2.75]} rotation={[-Math.PI, 0, -Math.PI]} scale={[-1.27, -0.05, -0.4]} />
         <mesh 
-          onClick={() =>  window.open("https://t.me/anjesus")}
+          onClick={() =>  window.open("https://t.me/s4mota")}
           geometry={nodes.Cube021.geometry} material={materials.back} position={[0.13, 0.06, 3.49]} rotation={[-Math.PI, 0, -Math.PI]} scale={[-1.27, -0.05, -0.4]} />
       </group>
     </group>
