@@ -49,9 +49,11 @@ const Second = () => {
                     <motion.p 
                     custom={2} variants={textAnimation} 
                     className="info__about__me-paragraph-second">
-                        In May 2022 I attended an internship at EpolSoft for 3 months as a frontend developer.
-                        In June 2022 I graduated from Brest State Technical University as a software engineer.
-                        Now I'm creating projects for my portfolio and actively searching for a job or an internship as a frontend developer.
+                        In the field of frontend development, I use JS, React, Vue.js and CSS/SCSS/Tailwind. 
+                        Have knowledge of SQL, experience in backend development using PHP and Laravel. 
+                        I use GitHub as a version control system. I attended an internship at EpolSoft for 3 months as a Frontend Developer (React). 
+                        Today I work for Encore Studio as a Junior Full Stack Developer and participate in the development of the application, 
+                        using PHP and Laravel for backend development and JavaScript and Vue3 for frontend development.
                     </motion.p>
                     <motion.div 
                          initial="hidden"
