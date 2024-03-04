@@ -6,7 +6,7 @@ import { DiReact, DiSass } from 'react-icons/di';
 import { SiJavascript, SiRedux, SiThreedotjs, SiMapbox, SiMysql } from 'react-icons/si';
 import { AiFillHtml5, AiFillGithub } from 'react-icons/ai';
 
-import file from '../doc/ArtyomNovikevich_CV.pdf'
+import file from '../doc/ArtyomNovikevichCV.pdf'
 import Me from '../images/me.JPG'
 const textAnimation = {
     hidden: {
