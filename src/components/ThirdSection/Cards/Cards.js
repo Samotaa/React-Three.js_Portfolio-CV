@@ -30,7 +30,7 @@ export default function Cards() {
                     <p>Tailwind</p>
                 </div>
                 <div className="link">
-                    <a href="https://planetor.io/" target="_blank"> <FaTelegram /></a>
+                    <a href="https://t.me/PlanetorBot" target="_blank"> <FaTelegram /></a>
                 </div>
             </div>
     
