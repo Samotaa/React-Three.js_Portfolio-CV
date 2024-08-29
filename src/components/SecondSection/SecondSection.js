@@ -50,9 +50,10 @@ const Second = () => {
                     <motion.p 
                     custom={2} variants={textAnimation} 
                     className="info__about__me-paragraph-second">
-                        In the field of frontend development, I use JS, React, Vue.js and CSS/SCSS/Tailwind. 
-                        Have knowledge of SQL, experience in backend development using PHP and Laravel. 
-                        I use GitHub as a version control system.
+                        In the field of frontend development, I work with JavaScript, React, Vue.js, and CSS/SCSS/Tailwind. I have knowledge of SQL and experience in backend development using PHP and Laravel. 
+                        I use GitHub for version control. I completed a 3-month internship at EpolSoft as a Frontend Developer (React). From February 2023 to February 2024, I worked at Encore Studio as a Junior Full Stack Developer, 
+                        where I optimized Laravel applications and developed frontend components using JavaScript and Vue3. Currently, I am a Frontend Developer and Designer at Planetor, a game in Telegram Mini Apps, 
+                        where I focus on building and designing user interfaces with Vue3, Three.js, JavaScript and Tailwind.
                     </motion.p>
                     <motion.div 
                          initial="hidden"
