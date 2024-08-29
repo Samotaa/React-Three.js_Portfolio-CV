@@ -11,11 +11,11 @@
 
     .info{
         display: flex;
+        flex-direction: column;
         justify-content: center;
-        height: 630px;
+        height: 100vh;
         gap: 10px;
         color: white;
-        flex-wrap: wrap;
         line-height: 24px;
         overflow-y: hidden;
        
@@ -67,6 +67,7 @@
         }
         .info__about__me-paragraph-second{
             max-width: 500px;
+            max-height: 500px;
             font-family: 'Source Code Pro', monospace;
         }
 
@@ -203,7 +204,7 @@
     }
     .my__picture{
         width: 400px;
-        height: 200px;
+        height: 600px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -265,7 +266,7 @@
         .info__about__me-paragraph-second{
             max-width: 380px;
             font-size: 12px;
-            max-height: 110px;
+            max-height: 600px;
             overflow: hidden;
             font-family: 'Source Code Pro', monospace;
         }
@@ -273,8 +274,6 @@
         
         .skills{
             font-size: 16px;
-            height: 250px;
-
             h1{
                 font-size: 24px;
                 margin-bottom: 10px;
