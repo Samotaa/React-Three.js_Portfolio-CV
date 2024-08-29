@@ -11,7 +11,8 @@
 
     .info{
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
+        flex-direction: row;
         justify-content: center;
         height: 100vh;
         gap: 10px;
@@ -138,7 +139,6 @@
        
         display: flex;
         justify-content: center;
-        height: 630px;
         gap: 5px;
         color: white;
         flex-wrap: wrap;
@@ -165,7 +165,7 @@
         .info__about__me-paragraph-second{
             max-width: 380px;
             font-size: 12px;
-            max-height: 110px;
+            max-height: 300px;
             overflow: hidden;
             font-family: 'Source Code Pro', monospace;
         }
@@ -204,15 +204,15 @@
     }
     .my__picture{
         width: 400px;
-        height: 600px;
+        height: 200px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
+        margin-top: 40px;
         
         img{
             width: 150px;
-            
             margin-bottom: 20px;
             justify-self: center;
             box-shadow: 5px 5px 10px $font-secondary;
@@ -239,7 +239,7 @@
        
         display: flex;
         justify-content: center;
-        height: 430px;
+        height: 600px;
         gap: 5px;
         color: white;
         flex-wrap: wrap;
