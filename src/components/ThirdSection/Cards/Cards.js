@@ -1,5 +1,7 @@
 import React from 'react'
 import { AiFillGithub } from 'react-icons/ai';
+import { TbWorldWww } from "react-icons/tb";
+import { FaTelegram } from "react-icons/fa";
 
 import './Cards.scss'
 export default function Cards() {
@@ -9,10 +11,52 @@ export default function Cards() {
             <h4>My projects</h4>
         </div>
         <div className="cards__info">
+
+            <div className="planetor card">
+                <div className="project__name">
+                    <h4>Planetor</h4>              
+                </div>
+                <div className="project__description">
+                    <p>
+                        A Telegram Mini Aps game where the user creates their own unique planet and improves it
+                    </p>
+                </div>
+                <div className="project__stack">
+                    <p>JS</p>
+                    <p>Vue</p>
+                    <p>Pinia</p>
+                    <p>Three.js</p>
+                    <p>HTML/CSS</p>
+                    <p>Tailwind</p>
+                </div>
+                <div className="link">
+                    <a href="https://planetor.io/" target="_blank"> <FaTelegram /></a>
+                </div>
+            </div>
+    
+            <div className="landing card">
+                <div className="project__name">
+                    <h4>Landing</h4>
+                </div>
+                <div className="project__description">
+                    <p>
+                        A website for a startup
+                    </p>
+                </div>
+                <div className="project__stack">
+                    <p>JS</p>
+                    <p>Vue</p>
+                    <p>HTML/CSS</p>
+                    <p>Tailwind</p>
+                </div>
+                <div className="link">
+                    <a href="https://planetor.io/" target="_blank"> <TbWorldWww /></a>
+                </div>
+            </div>
+    
             <div className="interactive__map card">
                 <div className="project__name">
                     <h4>Interactive map</h4>
-                    
                 </div>
                 <div className="project__description">
                     <p>
@@ -68,7 +112,7 @@ export default function Cards() {
                     <p>Wether API</p>
                 </div>
                 <div className="link">
-                    <a href="https://github.com/Samotaa/React-Wether_App" target="_blank"> <AiFillGithub /></a>
+                    <p className='pokedex'>No code because the project was created at internship</p>
                 </div>
             </div>
             <div className="Pokedex card">
