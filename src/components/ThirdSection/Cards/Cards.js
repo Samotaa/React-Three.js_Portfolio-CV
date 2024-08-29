@@ -1,6 +1,6 @@
 import React from 'react'
 import { AiFillGithub } from 'react-icons/ai';
-import { TbWorldWww } from "react-icons/tb";
+import { FaChrome } from "react-icons/fa";
 import { FaTelegram } from "react-icons/fa";
 
 import './Cards.scss'
@@ -50,7 +50,7 @@ export default function Cards() {
                     <p>Tailwind</p>
                 </div>
                 <div className="link">
-                    <a href="https://planetor.io/" target="_blank"> <TbWorldWww /></a>
+                    <a href="https://planetor.io/" target="_blank"> <FaChrome /></a>
                 </div>
             </div>
     
