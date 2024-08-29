@@ -7,16 +7,17 @@
 @media screen and (min-width: 1000px) {
     .cards{
         width: 100vw;
-        height: 100vh;
+        height: 100%;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
+        margin-bottom: 50px;
 
         .portfolio__title{
             color: $font-primary;
             font-size: 32px;
-            
+            margin-bottom: 30px;
         }
         .cards__info{
             color: $font-primary;
@@ -178,7 +179,7 @@
 @media screen and (max-width: 821px){
     .cards{
         width: 100vw;
-        height: 130vh;
+        height: 100%;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
@@ -195,8 +196,7 @@
         .cards__info{
             color: $font-primary;
             display: grid;
-            grid-template-columns: 180px 180px;
-            grid-template-rows: repeat(auto-fit, 1fr);
+            grid-template-columns: 170px 170px;
             
            
             
