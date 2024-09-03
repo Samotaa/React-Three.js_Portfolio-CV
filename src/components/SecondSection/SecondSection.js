@@ -45,7 +45,7 @@ const Second = () => {
                     className="info__about__me-paragraph">
                         Hello! My name is Artyom and Im 23 y.o. My interest in web development started 
                         back in 2018 when i first time met HTML & CSS on computer science lesson at school. 
-                        After this I decided to connect my life with programming.
+                        After this I decided to connect my life with programming. In 2022 graduated from BSTU as a software engineer.
                     </motion.p>
                     <motion.p 
                     custom={2} variants={textAnimation} 
