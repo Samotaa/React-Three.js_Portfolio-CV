@@ -112,7 +112,7 @@ export default function Cards() {
                     <p>Wether API</p>
                 </div>
                 <div className="link">
-                    <p className='pokedex'>No code because the project was created at internship</p>
+                    <a href="https://github.com/Samotaa/React-Wether_App" target="_blank"> <AiFillGithub /></a>
                 </div>
             </div>
             <div className="Pokedex card">
