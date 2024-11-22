@@ -33,6 +33,48 @@ export default function Cards() {
                     <a href="https://t.me/PlanetorBot" target="_blank"> <FaTelegram /></a>
                 </div>
             </div>
+
+            <div className="todo card">
+                <div className="project__name">
+                    <h4>Todo list</h4>              
+                </div>
+                <div className="project__description">
+                    <p>
+                        Full basic functionality of the Todo list.
+                    </p>
+                </div>
+                <div className="project__stack">
+                    <p>JS</p>
+                    <p>Vue</p>
+                    <p>Pinia</p>
+                    <p>HTML/CSS</p>
+                    <p>Tailwind</p>
+                </div>
+                <div className="link">
+                    <a href="https://github.com/Samotaa/vue-todo-test" target="_blank"> <AiFillGithub /></a>
+                </div>
+            </div>
+
+            <div className="horoscope card">
+                <div className="project__name">
+                    <h4>Horoscope</h4>              
+                </div>
+                <div className="project__description">
+                    <p>
+                        A Telegram Mini App providing daily horoscope updates
+                    </p>
+                </div>
+                <div className="project__stack">
+                    <p>JS</p>
+                    <p>Vue</p>
+                    <p>Pinia</p>
+                    <p>HTML/CSS</p>
+                    <p>Tailwind</p>
+                </div>
+                <div className="link">
+                    <a href="https://github.com/Samotaa/zodiac-task" target="_blank"> <AiFillGithub /></a>
+                </div>
+            </div>
     
             <div className="landing card">
                 <div className="project__name">
