@@ -8,7 +8,7 @@ import { SiJavascript, SiRedux, SiThreedotjs, SiMapbox, SiMysql } from 'react-ic
 import { AiFillHtml5, AiFillGithub } from 'react-icons/ai';
 
 import file from '../doc/ArtyomNovikevichCV.pdf'
-import Me from '../images/me.JPG'
+import Me from '../images/me.jpg'
 const textAnimation = {
     hidden: {
         x: 100,
