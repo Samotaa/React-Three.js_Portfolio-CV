@@ -38,7 +38,7 @@ const About = () => {
           
             custom={6} variants={textAnimation}
             className="text__about">
-                I'm a frontend developer from Brest, Belarus
+                I'm a frontend developer
             </motion.h5>
         </motion.div>
        </div>
